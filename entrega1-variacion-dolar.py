@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 
 # Cargar variables de entorno desde el archivo .env
-load_dotenv('config.env')
+load_dotenv('./env/config.env')
 
 # Leer las credenciales de las variables de entorno
 REDSHIFT_USER = os.getenv('REDSHIFT_USER')
