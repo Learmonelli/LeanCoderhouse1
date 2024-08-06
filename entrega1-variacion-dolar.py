@@ -80,6 +80,7 @@ try:
 except Exception as e:
     print("Unable to connect to Redshift or execute query.")
     print(e)
+
 finally:
     if conn:
         conn.close()
