@@ -3,6 +3,3 @@
 # dependencies
 /env
 /env/config.env
-.gitignore
-/.vscode
-/.pytest_cache
